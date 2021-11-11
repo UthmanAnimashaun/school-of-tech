@@ -1,0 +1,451 @@
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* colours */
+/* nav */
+/* alerts buttons dialogues */
+/* rad */
+/* fonts */
+/* grid */
+/* media query */
+/* section */
+/* retina images */
+/* Variables */
+.mobOnly {
+  display: none;
+}
+
+.green-bg {
+  background: #5fb047;
+}
+
+h1 {
+  padding: 40px 0 20px 0;
+}
+
+section.contact-title {
+  color: white;
+  padding-bottom: 0;
+}
+section.contact-title h1 {
+  color: white;
+}
+section.contact-title p {
+  text-align: center;
+  margin: 0 auto 30px auto;
+  width: 75%;
+}
+section.contact-title .pb {
+  margin: 0 auto;
+  float: none;
+  overflow: hidden;
+}
+section.contact-title .pb .parcelboy {
+  width: 178px;
+  height: 237px;
+  float: left;
+  margin-left: 20%;
+  background: url("../Images/cms/contact/pb.html") no-repeat;
+}
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  section.contact-title .pb .parcelboy {
+    background-repeat: no-repeat;
+    background-image: url("../Images/cms/contact/pb-ret.html");
+    background-size: 178px 237px;
+  }
+}
+section.contact-title .pb ul {
+  float: left;
+  padding: 10px 0 0 20px;
+}
+section.contact-title .pb ul .tick {
+  font-family: "contact-icon";
+  font-size: 30px;
+  color: white;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+section.contact-title .pb ul .item {
+  font-size: 18px;
+  font-family: Lato-Regular, Arial;
+  margin-right: 0;
+  opacity: 1;
+}
+section.contact-title .pb ul li {
+  list-style: none;
+}
+
+section.faq {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+section.faq p {
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+section.faq .question {
+  background: white;
+  border: 1px solid #ddd;
+  margin: 15px auto 0 auto;
+  padding: 0;
+  float: none;
+}
+section.faq .question span {
+  font-family: "contact-icon";
+  font-size: 26px;
+  color: #aaaaaa;
+  display: inline-block;
+  background: #eeeeee;
+  padding: 8px 16px;
+  margin-right: 15px;
+  border-right: 1px solid #dddddd;
+}
+section.faq .question h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: left;
+  clear: none;
+  padding-bottom: 8px;
+}
+section.faq .help-section {
+  clear: both;
+}
+section.faq .help {
+  font-size: 16px;
+  clear: both;
+  padding-left: 15%;
+  float: left;
+  clear: both;
+  width: auto;
+  padding-top: 8px;
+}
+section.faq .primaryButtonSmall {
+  padding: 10px 14px;
+  font-size: 14px;
+}
+section.faq a {
+  color: #5fb047;
+  display: inline-block;
+  padding: 15px 0;
+  vertical-align: super;
+}
+section.faq .faqCheck {
+  margin-top: 40px;
+}
+
+section.get-in-touch .iconbox {
+  min-height: 328px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+section.get-in-touch .iconbox span {
+  color: #564193;
+  font-size: 85px;
+  font-family: "contact-icon";
+}
+section.get-in-touch .iconbox span.help-icon-email20 {
+  font-family: "help-icon";
+}
+section.get-in-touch .iconbox span.closeModal {
+  font-size: 20px;
+  color: #5fb047;
+}
+section.get-in-touch .iconbox p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+section.get-in-touch .iconbox p.info {
+  font-size: 14px;
+  text-transform: inherit;
+  width: 85%;
+  margin: 0 auto;
+}
+section.get-in-touch .iconbox p.phoneNumber {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+section.get-in-touch .iconbox a.telno {
+  display: none;
+  color: #5fb047;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 30px;
+}
+section.get-in-touch .iconbox .primaryButtonSmall {
+  margin: 17px 0;
+}
+
+section.find-us .details .mpd-address, section.find-us .details .companyinfo-container {
+  float: none;
+}
+section.find-us .details h2 {
+  padding-bottom: 26px;
+  border-bottom: 1px solid #e9e9e9;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: left;
+}
+section.find-us .details h2.companyinfo {
+  margin-top: 40px;
+}
+section.find-us .details span {
+  color: #db2a31;
+  padding-right: 10px;
+  font-size: 30px;
+  vertical-align: sub;
+  font-family: "contact-icon";
+}
+section.find-us .details p {
+  color: #44484d;
+  margin: 26px 0 0 26px;
+}
+section.find-us #map-container {
+  margin-top: 15px;
+  border: 1px solid #e9e9e9;
+  height: 448px;
+}
+section.find-us #map-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.modal {
+  overflow-y: hidden !important;
+}
+.modal .modal-dialog {
+  left: auto;
+}
+.modal .modal-dialog .modal-content {
+  height: 710px !important;
+  min-width: 640px !important;
+}
+.modal .modal-dialog .modal-content .modal-title {
+  font-family: montserratregular, Helvetica;
+  text-transform: uppercase;
+}
+.modal .modal-dialog .modal-content #dropbox {
+  background: white !important;
+}
+
+/* WIDE SCREEN */
+/* DESKTOP */
+@media only screen and (max-width: 1240px) {
+  section.contact-title .pb {
+    width: 80%;
+  }
+  section.contact-title .pb .parcelboy {
+    margin-left: 0;
+  }
+
+  section.faq .box .question {
+    min-height: 0;
+  }
+
+  section.get-in-touch .iconbox {
+    min-height: 368px;
+  }
+
+  section.find-us .details {
+    overflow: hidden;
+  }
+  section.find-us .details h2 {
+    font-size: 16px;
+  }
+  section.find-us .details h2.companyinfo {
+    margin-top: 10px;
+  }
+  section.find-us .details .mpd-address, section.find-us .details .companyinfo-container {
+    float: left;
+  }
+}
+/* TABLET */
+@media only screen and (max-width: 990px) {
+  section.contact-title {
+    padding-bottom: 30px;
+  }
+  section.contact-title .pb {
+    width: auto;
+  }
+  section.contact-title .pb .parcelboy {
+    margin-left: 0;
+  }
+  section.contact-title .pb ul .item {
+    font-size: 16px;
+  }
+
+  section.faq .help-section {
+    text-align: center;
+  }
+  section.faq .help-section p {
+    padding: 0;
+    width: 100%;
+  }
+  section.faq .help-section span {
+    font-size: 26px;
+  }
+
+  section.get-in-touch .iconbox {
+    min-height: 366px;
+  }
+  section.get-in-touch .iconbox span {
+    font-size: 60px;
+  }
+  section.get-in-touch .iconbox p {
+    font-size: 18px;
+  }
+}
+/* MOBILE */
+@media only screen and (max-width: 767px) {
+  /*.zopim {
+    display: block !important;
+  }
+
+  .zopim:nth-of-type(2) {
+    display: none !important;
+  }*/
+
+  .green-bg {
+    background: #e9e9e9 !important;
+  }
+
+  .mobHide {
+    display: none;
+  }
+
+  .mobOnly {
+    display: block;
+  }
+
+  section.contact-title {
+    padding-bottom: 0;
+  }
+  section.contact-title h1 {
+    padding-top: 20px;
+  }
+  section.contact-title p {
+    width: 90%;
+  }
+  section.contact-title .pb {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  section.contact-title .pb .parcelboy {
+    display: none;
+  }
+  section.contact-title .pb .mobList {
+    width: 95%;
+    margin: 0 auto;
+  }
+  section.contact-title .pb .mobList ul {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+  }
+  section.contact-title .pb .mobList ul li {
+    font-size: 14px;
+    color: white;
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 5px 0;
+  }
+  section.contact-title .pb .mobList ul .tick {
+    margin-left: 10%;
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+    margin-right: 20px;
+    width: 20px;
+    height: 28px;
+    float: left;
+  }
+  section.contact-title .pb .mobList ul .item {
+    font-size: 14px;
+    float: none;
+    padding-top: 0;
+  }
+  section.contact-title h1, section.contact-title p {
+    color: #333;
+  }
+
+  section.faq .question {
+    padding: 0 10px;
+  }
+  section.faq .question h2 {
+    font-size: 15px;
+  }
+  section.faq .question span {
+    min-height: 0;
+    display: none;
+  }
+  section.faq .help-section {
+    text-align: center;
+  }
+  section.faq .faqCheck {
+    text-align: center;
+  }
+  section.faq .faqCheck p {
+    padding-left: 0;
+    padding-right: 0;
+    float: none;
+  }
+
+  section.get-in-touch {
+    padding-bottom: 0;
+  }
+  section.get-in-touch .iconbox {
+    margin: 20px 0;
+    min-height: 0;
+  }
+  section.get-in-touch .iconbox span {
+    font-size: 65px;
+  }
+  section.get-in-touch .iconbox p {
+    font-size: 18px;
+  }
+  section.get-in-touch .iconbox p.info {
+    font-size: 12px;
+    text-transform: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+  section.get-in-touch .iconbox p.phoneNumber {
+    display: none !important;
+  }
+  section.get-in-touch .iconbox .telno {
+    display: block !important;
+    padding-right: 0;
+  }
+
+  section.find-us .details span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 35px;
+    padding-right: 0;
+  }
+  section.find-us .details h2, section.find-us .details p {
+    text-align: center;
+  }
+  section.find-us .details h2 {
+    padding-bottom: 16px;
+    width: 80%;
+    font-size: 16px;
+  }
+  section.find-us .details p {
+    margin-left: 0;
+  }
+  section.find-us #map-container {
+    margin-top: 40px;
+  }
+}
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
